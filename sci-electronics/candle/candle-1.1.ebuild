@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="
-	dev-qt/qtcore:5
+    dev-qt/qtcore:5
     dev-qt/qtgui:5
     dev-qt/qtopengl:5
     dev-qt/qtserialport:5
@@ -37,11 +37,11 @@ pkg_pretend() {
 src_prepare() {
     eapply "${FILESDIR}/${PN}-1.1-fix-gl-program-point-size-definition.patch"
     eapply "${FILESDIR}/${PN}-1.1-fix-qglformat-definition.patch"
-	eapply "${FILESDIR}/${PN}-1.1-fix-install-path.patch"
+    eapply "${FILESDIR}/${PN}-1.1-fix-install-path.patch"
 
-	eapply_user
+    eapply_user
 }
 
 src_configure() {
-	eqmake5 candle.pro
+    eqmake5 candle.pro
 }
