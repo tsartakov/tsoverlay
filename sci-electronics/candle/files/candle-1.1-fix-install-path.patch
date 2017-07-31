@@ -1,0 +1,11 @@
+--- a/candle.pro     2016-11-20 16:48:35.000000000 -0000
++++ b/candle.pro     2017-07-31 08:27:02.180198281 -0000
+@@ -24,7 +24,7 @@
+     warning("GL ES detected. VAO will be disabled.")
+     DEFINES += GLES
+     INSTALLS += target
+-    target.path = /home/pi
++    target.path = /usr/bin/
+ }
+
+ TARGET = Candle

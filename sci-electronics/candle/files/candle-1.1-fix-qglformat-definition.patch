@@ -1,0 +1,9 @@
+--- a/frmmain.cpp     2016-11-20 16:48:35.000000000 -0000
++++ b/frmmain.cpp        2017-07-30 21:47:40.541077342 -0000
+@@ -32,6 +32,7 @@
+ #include <QAction>
+ #include <QLayout>
+ #include <QMimeData>
++#include <QGLFormat>
+ #include "frmmain.h"
+ #include "ui_frmmain.h"

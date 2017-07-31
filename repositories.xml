@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+    <repo quality="experimental" status="unofficial">
+        <name>tsoverlay</name>
+        <description>tsartakov's overlay</description>
+        <homepage>https://github.com/tsartakov/tsoverlay</homepage>
+        <owner type="person">
+            <email>tsartakov@gmail.com</email>
+            <name>tsartakov</name>
+        </owner>
+        <source type="git">https://github.com/tsartakov/tsoverlay.git</source>
+    </repo>
+</repositories>

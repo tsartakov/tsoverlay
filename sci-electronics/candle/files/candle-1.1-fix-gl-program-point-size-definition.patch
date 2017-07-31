@@ -1,0 +1,10 @@
+--- a/widgets/glwidget.cpp    2016-11-20 16:48:35.000000000 -0000
++++ b/widgets/glwidget.cpp       2017-07-30 21:47:40.549077342 -0000
+@@ -7,6 +7,7 @@
+ #include <QtWidgets>
+ #include <QPainter>
+ #include <QEasingCurve>
++#include <GL/gl.h>
+
+ #ifdef GLES
+ #include <GLES/gl.h>
